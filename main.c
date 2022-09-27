@@ -5,26 +5,18 @@
 
 int main(int argc, char *argv[]) {
 	
-	int x, y;
-	int plus, sub, mul, div, por;
-	
-	printf("input two integers : ");
-	scanf("%i %i", &x, &y);
+	int seconds, min, sec;
 	
 	
-	plus = x+y;
-	sub = x-y;
-	mul = x*y;
-	div = x/y;
-	por = x%y;
+	printf("input the second : ");
+	scanf("%d", &seconds);
+	
+	min = (seconds - seconds%60)/60;
+	sec = seconds - min*60;
 	
 	
+	printf("the time is %d : %d", min, sec);
 	
-	printf("+ result is : %i\n", plus);
-	printf("- result is : %i\n", sub);
-	printf("* result is : %i\n", mul);
-	printf("/ result is : %i\n", div);
-	printf("%% result is : %i\n", por);
 
 	return 0;
 }
