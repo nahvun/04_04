@@ -5,8 +5,7 @@
 
 int main(int argc, char *argv[]) {
 	
-	
-int x, y;
+	int x, y;
 	int plus, sub, mul, div, por;
 	
 	printf("input two integers : ");
@@ -21,11 +20,11 @@ int x, y;
 	
 	
 	
-	printf("+ result is : %d\n", plus);
-	printf("- result is : %d\n", sub);
-	printf("* result is : %d\n", mul);
-	printf("/ result is : %d\n", div);
-	printf("% result is : %d\n", por);
+	printf("+ result is : %i\n", plus);
+	printf("- result is : %i\n", sub);
+	printf("* result is : %i\n", mul);
+	printf("/ result is : %i\n", div);
+	printf("%% result is : %i\n", por);
 
 	return 0;
 }
