@@ -6,7 +6,7 @@
 int main(int argc, char *argv[]) {
 	
 	
-	int x, y;
+int x, y;
 	int plus, sub, mul, div, por;
 	
 	printf("input two integers : ");
@@ -25,10 +25,7 @@ int main(int argc, char *argv[]) {
 	printf("- result is : %d\n", sub);
 	printf("* result is : %d\n", mul);
 	printf("/ result is : %d\n", div);
-	printf("%% result is : %d\n", por);
-	return 0;
+	printf("% result is : %d\n", por);
 
-
-	
 	return 0;
 }
